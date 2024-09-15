@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgBck {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1);
+    grid-template-areas:
+        "Cabeça"
+        "Corpo"
+        "pé";
+    background-image: url("fundo.png");
+    row-gap: 1rem;
+
+}
+
+.Cabeçalho {
+    grid-area: Cabeça;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+
+}
+
+.NavBar>li {
+    list-style: none;
+}
+
+.Principal {
+    grid-area: Corpo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.Titulo {
+    align-self: baseline;
+}
+
+.Txtmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 71%;
+    row-gap: 1rem;
+}
+
+.Rodapé {
+    grid-area: pé;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 1000;
+}
+
+.imagem {
+    width:99.5%;
+
+}
+
+/*Pagina Sobre*/
+.img2 {
+    background-image: url("fundo2.png");
+    display: grid;
+    grid-template-columns: repeat(1fr, 1);
+    grid-template-areas:
+    'Cabeça'
+    'Corpo'
+    'pé';
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Principal2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Txtart {
+    display: flex;
+    row-gap: 1rem;
+    flex-direction: column;
+    width: 90%;
+
+}
+
+.Pt1Sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.Lista {
+    padding-left: 1.7rem;
+}
+
+.Objs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+
+
+}
+
+
+
+/*Pagina Contato*/
+.contactPrincipal{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    width: 95%;
+  }
+  
+  .infosTxt{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+  
+  .forms{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+  }
+  
+  .inputArea{
+    max-width: 10rem;
+    min-height: 1.5rem;
+  }
+  
+  .txtArea{
+    max-width: 15rem;
+    min-width: 10rem;
+    min-height: 2rem;
+    max-height: 5rem;
+  }
+  
+  .envBtn{
+    width: 5rem;
+  }
+
+
